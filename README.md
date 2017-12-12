@@ -29,6 +29,10 @@ Possible topics:
 
 **Contributions welcome!**
 
+## Other React Starter-Projects
+- Also /w parcel, but using more config: [react-parcel-example](https://github.com/jaredpalmer/react-parcel-example)
+- Famous CRA, using webpack internally: [create-react-app](https://github.com/facebookincubator/create-react-app)
+
 ## Contributors
 
 This repo is meant to deliver the simplest possible React starter code using the parcel bundler. Keep this in mind for code contributions.
