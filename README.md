@@ -46,9 +46,10 @@ To test your code, you can use Jest, which works well with React with little set
 - `yarn add --dev jest babel-jest babel-preset-es2015 babel-preset-react react-test-renderer`
 - in `package.json`, add `"test": "jest"` to your scripts
 - in `.babelrc`, add `"es2015"` to the presets array
+- create test files, either in [`__test__` folders or with the `*.test.js` or `*.spec.js` filename pattern](https://facebook.github.io/jest/docs/en/configuration.html#testmatch-array-string)
 - `yarn test`
 
-To learn more about Jest, read their [Getting Started](https://facebook.github.io/jest/docs/en/getting-started.html) guide and their [Testing React Apps](https://facebook.github.io/jest/docs/en/tutorial-react.html) guide.
+To learn more about Jest, read their [Getting Started](https://facebook.github.io/jest/docs/en/getting-started.html) guide and their [Testing React Apps](https://facebook.github.io/jest/docs/en/tutorial-react.html) guide. You can also configure Jest, have a look at the [Jest Configuration](https://facebook.github.io/jest/docs/en/configuration.html) docs.
 
 ### TODO
 
