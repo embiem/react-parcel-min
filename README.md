@@ -22,7 +22,7 @@ The most minimalistic React starter code using [Parcel](https://github.com/parce
 
 Parcel does the heavy lifting internally. [Learn more about Parcel](https://parceljs.org/getting_started.html). 
 
-The only necessary config is for [babel](https://babeljs.io/), as we want to compile React'S JSX to browser-compatible JavaScript code. That's why there's the `.babelrc` file and the corresponding preset [`babel-preset-react`](https://babeljs.io/docs/plugins/preset-react/) as dev-dependency in the `package.json` file.
+The only necessary config is for [babel](https://babeljs.io/), as we want to compile React's JSX to browser-compatible JavaScript code. That's why there's the `.babelrc` file and the corresponding preset [`babel-preset-react`](https://babeljs.io/docs/plugins/preset-react/) as dev-dependency in the `package.json` file.
 
 ## Beyond the Starter Code
 
