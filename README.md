@@ -26,9 +26,26 @@ The only necessary config is for [babel](https://babeljs.io/), as we want to com
 
 ## Beyond the Starter Code
 
+### Support ES6, ES7 etc. using babel
+
+If you want to add support for new ES specifications, you'd look up the appropriate babel preset or plugin. A popular example would be to add the ["env" preset](https://babeljs.io/docs/plugins/preset-env/), by running `yarn add --dev babel-preset-env` and adding `env` in your `.babelrc` file's preset array.
+
+To add plugins, you will have to install the plugin, e.g. [babel-plugin-transform-class-properties](https://babeljs.io/docs/plugins/transform-class-properties/) to define your component's state outside of the component's constructor. After installing `yarn add --dev babel-plugin-transform-class-properties`, you have to modify your `.babelrc` again and add a new key `plugins`, which holds an array of plugins. Your .babelrc file will look like this:
+
+```
+{
+  "presets": ["env", "react"],
+  "plugins": ["transform-class-properties"]
+}
+
+```
+
+### TODO
+
 *TODO:* In this section we will discuss where you could take this simple starter code.
 
 Possible topics:
+- how to add testing
 - using PostCSS and PostHTML
 - using parcel's built-in code splitting
 - ...
