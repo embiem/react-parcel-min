@@ -37,8 +37,18 @@ To add plugins, you will have to install the plugin, e.g. [babel-plugin-transfor
   "presets": ["env", "react"],
   "plugins": ["transform-class-properties"]
 }
-
 ```
+
+### Test with Jest
+
+To test your code, you can use Jest, which works well with React with little set-up.
+
+- `yarn add --dev jest babel-jest babel-preset-es2015 babel-preset-react react-test-renderer`
+- in `package.json`, add `"test": "jest"` to your scripts
+- in `.babelrc`, add `"es2015"` to the presets array
+- `yarn test`
+
+To learn more about Jest, read their [Getting Started](https://facebook.github.io/jest/docs/en/getting-started.html) guide and their [Testing React Apps](https://facebook.github.io/jest/docs/en/tutorial-react.html) guide.
 
 ### TODO
 
