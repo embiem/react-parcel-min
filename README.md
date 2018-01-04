@@ -39,6 +39,20 @@ To add plugins, you will have to install the plugin, e.g. [babel-plugin-transfor
 }
 ```
 
+### Production-specific transforms
+
+Use your `.babelrc` file to further optimize your production build, e.g. by automatically removing all `debugger;` statements from your code. To do this, just edit the `.babelrc` file and add this part:
+
+```
+...
+"env": {
+  "production": {
+    "plugins": ["transform-remove-debugger"]
+  }
+}
+...
+```
+
 ### Test with Jest
 
 To test your code, you can use Jest, which works well with React with little set-up.
